@@ -1,0 +1,8 @@
+import socket
+
+host = input("Enter Host Name: ")
+
+ip = socket.gethostbyname(host)
+
+print("Host Name :", host)
+print("IP Address:", ip)
